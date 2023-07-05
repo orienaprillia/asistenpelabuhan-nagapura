@@ -1,0 +1,1706 @@
+{
+  "intents": [
+    {
+      "intent": "bukitraya_rabu_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal bukit raya untuk hari rabu"
+        },
+        {
+          "text": "jadwal keberangkatan kapal bukit raya dihari rabu"
+        },
+        {
+          "text": "kapal bukit raya dihari rabu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "bukitraya_sabtu_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal bukit raya untuk hari sabtu"
+        },
+        {
+          "text": "jadwal keberangkatan kapal bukit raya untuk hari sabtu"
+        },
+        {
+          "text": "kapal bukit raya dihari sabtu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "bukitraya_selasa_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal bukit raya untuk hari selasa"
+        },
+        {
+          "text": "jadwal keberangkatan kapal bukit raya dihari selasa"
+        },
+        {
+          "text": "kapal bukit raya dihari selasa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "bukitraya_senin_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal bukit raya untuk hari senin"
+        },
+        {
+          "text": "jadwal keberangkatan kapal bukit raya di hari senin"
+        },
+        {
+          "text": "kapal bukit raya dihari senin"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fery_minggu_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal fery untuk hari minggu"
+        },
+        {
+          "text": "jadwal keberangkatan kapal fery dihari minggu"
+        },
+        {
+          "text": "kapal fery di hari minggu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fery_rabu_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal fery hari rabu"
+        },
+        {
+          "text": "jadwal keberangkatan kapal fery untuk hari rabu"
+        },
+        {
+          "text": "kapal fery di hari rabu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fery_sabtu_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal fery di hari sabtu"
+        },
+        {
+          "text": "jadwal keberangkatan kapal fery di hari sabtu"
+        },
+        {
+          "text": "kapal fery untuk hari sabtu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fery_selasa_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal fery hari selasa"
+        },
+        {
+          "text": "jadwal kapal fery untuk hari selasa"
+        },
+        {
+          "text": "kapal fery untuk hari selasa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "iguana_jumat_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal untuk hari jumat"
+        },
+        {
+          "text": "jadwal keberangkatan kapal iguana dihari jumat"
+        },
+        {
+          "text": "kapal iguana dihari jumat"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "iguana_kamis_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal untuk hari kamis"
+        },
+        {
+          "text": "jadwal keberangkatan kapal iguana dihari kamis"
+        },
+        {
+          "text": "kapal iguana dihari kamis"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "iguana_rabu_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal untuk hari rabu"
+        },
+        {
+          "text": "jadwal keberangkatan kapal iguana dihari rabu"
+        },
+        {
+          "text": "kapal iguana dihari rabu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "iguana_selasa_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal iguana untuk hari selasa"
+        },
+        {
+          "text": "jadwal keberangkatan kapal iguana dihari selasa"
+        },
+        {
+          "text": "kapal iguana dihari selasa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_jumat",
+      "examples": [
+        {
+          "text": "kapal apa saja yang berangkat hari jumat"
+        },
+        {
+          "text": "kapal hari jumat"
+        },
+        {
+          "text": "kapal jum'at"
+        },
+        {
+          "text": "kapal untuk hari jumat apa saja"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_kamis",
+      "examples": [
+        {
+          "text": "kapal apa saja yang berangkat hari kamis"
+        },
+        {
+          "text": "kapal hari kamis"
+        },
+        {
+          "text": "kapal untuk hari kamis apa saja"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_kapal_bukit_raya",
+      "examples": [
+        {
+          "text": "jadwal keberangkatan kapal bukit raya"
+        },
+        {
+          "text": "kapan kapal bukit raya berangkat"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_kapal_fery",
+      "examples": [
+        {
+          "text": "jadwal keberangkatan kapal fery"
+        },
+        {
+          "text": "kapan kapal fery berangkat"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_kapal_iguana",
+      "examples": [
+        {
+          "text": "jadwal keberangkatan kapal iguana"
+        },
+        {
+          "text": "kapan kapal iguana berangkat"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_kapal_marina",
+      "examples": [
+        {
+          "text": "jadwal keberangkatan kapal marina"
+        },
+        {
+          "text": "kapan kapal marina berangkat"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_kapal_oceana",
+      "examples": [
+        {
+          "text": "jadwal kapal oceana"
+        },
+        {
+          "text": "jam berapa dan hari apa saja kapal oceana gerak"
+        },
+        {
+          "text": "kapan jadwal keberangkatan kapal oceana"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_kapal_umum",
+      "examples": [
+        {
+          "text": "ada berapa kapal yang tersedia"
+        },
+        {
+          "text": "ada kapal apa saja"
+        },
+        {
+          "text": "apakah hariini ada kapal yang berangkat"
+        },
+        {
+          "text": "jadwal kapal"
+        },
+        {
+          "text": "jadwal seluruh kapal"
+        },
+        {
+          "text": "kapal apa saja"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_minggu",
+      "examples": [
+        {
+          "text": "kapal apa saja yang berangkat hari minggu"
+        },
+        {
+          "text": "kapal hari minggu"
+        },
+        {
+          "text": "kapal untuk hari minggu apa saja"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_rabu",
+      "examples": [
+        {
+          "text": "kapal apa saja yang berangkat hari rabu"
+        },
+        {
+          "text": "kapal hari rabu"
+        },
+        {
+          "text": "kapal untuk hari rabu apa aja"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_sabtu",
+      "examples": [
+        {
+          "text": "kapal apa aja yang berangkat hari sabtu"
+        },
+        {
+          "text": "kapal hari sabtu"
+        },
+        {
+          "text": "kapal untuk hari sabtu apa saja"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_selasa",
+      "examples": [
+        {
+          "text": "kapal apa saja yang berangkat hari selasa"
+        },
+        {
+          "text": "kapal hari selasa"
+        },
+        {
+          "text": "kapal untuk hari selasa apa aja"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jadwal_senin",
+      "examples": [
+        {
+          "text": "kapal apa saja yang berangkat hari senin"
+        },
+        {
+          "text": "kapal hari senin"
+        },
+        {
+          "text": "kapal untuk hari senin apa saja"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "marina_jumat_tidakada",
+      "examples": [
+        {
+          "text": "jadwal keberangkatan kapal marina di hari jumat"
+        },
+        {
+          "text": "jadwal keberangkatan kapal marina hari jumat"
+        },
+        {
+          "text": "kapal marina dihari jumat"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "marina_kamis_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal marina untuk hari kamis"
+        },
+        {
+          "text": "jadwal keberangkatan kapal marina dihari kamis"
+        },
+        {
+          "text": "kapal marina dihari kamis"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "marina_minggu_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal marina untuk hari minggu"
+        },
+        {
+          "text": "jadwal keberangkatan kapal marina di hari minggu"
+        },
+        {
+          "text": "kapal marina dihari minggu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "marina_senin_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal marina untuk hari senin"
+        },
+        {
+          "text": "jadwal keberangkatan kapal marina dihari senin"
+        },
+        {
+          "text": "kapal marina dihari senin"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "menanyakan_kapal_hariini",
+      "examples": [
+        {
+          "text": "kapal bukit raya"
+        },
+        {
+          "text": "kapal fery"
+        },
+        {
+          "text": "kapal hariini"
+        },
+        {
+          "text": "kapal iguana"
+        },
+        {
+          "text": "kapal marina"
+        },
+        {
+          "text": "kapal oceana hariini"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "oceana_jumat_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal oceana untuk hari jumat"
+        },
+        {
+          "text": "kapal oceana di hari jumat"
+        },
+        {
+          "text": "oceana hari jumat"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "oceana_kamis_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal oceana hari kamis"
+        },
+        {
+          "text": "oceana dihari kamis"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "oceana_minggu_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal oceana di hari minggu"
+        },
+        {
+          "text": "kapal oceana untuk hari minggu"
+        },
+        {
+          "text": "oceana di hari minggu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "oceana_sabtu_tidakada",
+      "examples": [
+        {
+          "text": "jadwal kapal oceana di hari sabtu"
+        },
+        {
+          "text": "kapal oceana di hari sabtu"
+        },
+        {
+          "text": "oceana di hari sabtu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "penulisan_kapal_salah",
+      "examples": [
+        {
+          "text": "kapal Ferry"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tiket_bukitraya",
+      "examples": [
+        {
+          "text": "berapa harga tiket kapal bukit raya"
+        },
+        {
+          "text": "harga tiket bukit raya"
+        },
+        {
+          "text": "harga tiket kapal bukit raya tuuan lingga"
+        },
+        {
+          "text": "harga tiket ke lingga"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tiket_fery",
+      "examples": [
+        {
+          "text": "berapa harga tiket kapal fery"
+        },
+        {
+          "text": "berapa harga tiket kapal fery tujuan batam"
+        },
+        {
+          "text": "tiket batam"
+        },
+        {
+          "text": "tiket kapal fery"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tiket_iguana",
+      "examples": [
+        {
+          "text": "berapa harga tiket kapal iguana"
+        },
+        {
+          "text": "berapa harga tiket kapal iguana tujuan anambas"
+        },
+        {
+          "text": "harga tiket kapal iguana"
+        },
+        {
+          "text": "harga tiket ke anambas"
+        },
+        {
+          "text": "tiket anambas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tiket_marina",
+      "examples": [
+        {
+          "text": "berapa harga tiket kapal marina"
+        },
+        {
+          "text": "harga tiket kapal marina"
+        },
+        {
+          "text": "harga tiket kapal marina tujuan karimun"
+        },
+        {
+          "text": "tiket kapal marina"
+        },
+        {
+          "text": "tiket ke karimun"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tiket_oceana",
+      "examples": [
+        {
+          "text": "berapa harga tiket kapal oceana"
+        },
+        {
+          "text": "harga tiket kapal oceana tujuan natuna"
+        },
+        {
+          "text": "tiket kapal oceana"
+        },
+        {
+          "text": "tiket ke natuna"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tujuan_bukitraya_lingga",
+      "examples": [
+        {
+          "text": "hari apa saja kapal ke lingga"
+        },
+        {
+          "text": "kapal bukit raya ke lingga"
+        },
+        {
+          "text": "kapal tujuan lingga"
+        },
+        {
+          "text": "tujuan kapal bukit raya hari jumat"
+        },
+        {
+          "text": "tujuan kapal bukit raya hari kamis"
+        },
+        {
+          "text": "tujuan kapal bukit raya hari minggu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tujuan_fery_batam",
+      "examples": [
+        {
+          "text": "hari apa saja kapal batam"
+        },
+        {
+          "text": "kapal fery ke batam"
+        },
+        {
+          "text": "kapal tujuan batam"
+        },
+        {
+          "text": "tujuan kapal fery hari jumat"
+        },
+        {
+          "text": "tujuan kapalfery hari kamis"
+        },
+        {
+          "text": "tujuan kapal fery hari senin"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tujuan_iguana_anambas",
+      "examples": [
+        {
+          "text": "hari apa saja kapal anambas"
+        },
+        {
+          "text": "kapal iguana ke anambas"
+        },
+        {
+          "text": "kapal tujuan anambas"
+        },
+        {
+          "text": "tujuan kapal iguana hari minggu"
+        },
+        {
+          "text": "tujuan kapal iguana hari sabtu"
+        },
+        {
+          "text": "tujuan kapal iguana hari senin"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tujuan_marina_karimun",
+      "examples": [
+        {
+          "text": "hari apa saja yang ke karimun"
+        },
+        {
+          "text": "kapal marina ke karimun"
+        },
+        {
+          "text": "kapal yang tujuannya karimun"
+        },
+        {
+          "text": "tujuan kapal iguana hari selasa"
+        },
+        {
+          "text": "tujuan kapal marina hari rabu"
+        },
+        {
+          "text": "tujuan kapal marina hari sabtu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tujuan_oceana_natuna",
+      "examples": [
+        {
+          "text": "hari apa saja kapal ke natuna"
+        },
+        {
+          "text": "kapal ke natuna"
+        },
+        {
+          "text": "kemana saja kapal oceana berangkat"
+        },
+        {
+          "text": "tujuan kapal oceana hari rabu"
+        },
+        {
+          "text": "tujuan kapal oceana hari selasa"
+        },
+        {
+          "text": "tujuan kapal oceana hari senin"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1688049011385",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "fery selasa tidak ada ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Fery hari selasa tidak tersedia.\nBerikut Jadwal Kapal Fery \n\nSenin pukul 08.00\nKamis pukul 09.00\nJumat pukul 10.00\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#fery_selasa_tidakada",
+      "dialog_node": "node_10_1687881042613",
+      "previous_sibling": "node_5_1687878700960"
+    },
+    {
+      "type": "standard",
+      "title": "fery rabu tidakada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Fery hari rabu tidak tersedia.\nBerikut Jadwal Kapal Fery \n\nSenin pukul 08.00\nKamis pukul 09.00\nJumat pukul 10.00\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#fery_rabu_tidakada",
+      "dialog_node": "node_10_1687881132688",
+      "previous_sibling": "node_10_1687881042613"
+    },
+    {
+      "type": "standard",
+      "title": "iguana selasa tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Iguana hari selasa tidak tersedia.\nBerikut Jadwal Kapal Iguana.\n\nSenin pukul 14.00\nSabtu pukul 10.00\nMinggu pukul 12.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#iguana_selasa_tidakada",
+      "dialog_node": "node_10_1688041219960",
+      "previous_sibling": "node_9_1687881189809"
+    },
+    {
+      "type": "standard",
+      "title": "marina minggu tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Marina hari minggu tidak tersedia.\nBerikut Jadwal Kapal Marina \n\nSelasa pukul 10.00\nRabu pukul 12.00\nSabtu pukul 13.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#marina_minggu_tidakada",
+      "dialog_node": "node_10_1688042179022",
+      "previous_sibling": "node_2_1688042144313"
+    },
+    {
+      "type": "standard",
+      "title": "kapal hariini",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin. \nMohon dicek kembali jadwal kapal yang terlampir. \nKapal Oceana \n  Senin pukul 10.00\n  Selasa pukul 12.00\n  Rabu pukul 14.00\n\nKapal Fery \n  Senin pukul 08.00\n  Kamis pukul 09.00\n  Jumat pukul 10.00\n\nKapal Iguana \n  Senin pukul 14.00\n  Sabtu pukul 10.00\n  Minggu pukul 12.00\n\nKapal Marina \n  Selasa pukul 10.00\n  Rabu pukul 12.00\n  Sabtu pukul 13.00\n\nKapal Bukit Raya \n  Kamis pukul 12.00\n  Jumat pukul 15.00\n  Minggu pukul 09.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#menanyakan_kapal_hariini",
+      "dialog_node": "node_10_1688274017711",
+      "previous_sibling": "node_6_1688273659059"
+    },
+    {
+      "type": "standard",
+      "title": "Jadwal Kapal Senin ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kapal Hari Senin \n\nKapal Fery Pukul 08.00\nKapal Oceana Pukul 10.00\nkapal Iguana Pukul 14.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#jadwal_senin",
+      "dialog_node": "node_1_1687868467114",
+      "previous_sibling": "node_3_1687680907341"
+    },
+    {
+      "type": "standard",
+      "title": "Jadwal Jumat ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kapal Hari Jumat \n\nKapal Fery Pukul 10.00\nKapal Bukit Raya Pukul 15.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#jadwal_jumat",
+      "dialog_node": "node_1_1687869717632",
+      "previous_sibling": "node_5_1687869618799"
+    },
+    {
+      "type": "standard",
+      "title": "Jadwal Sabtu ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kapal Hari Sabtu \n\nKapal Iguana Pukul 10.00\nKapal Marina Pukul 13.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#jadwal_sabtu",
+      "dialog_node": "node_1_1687869721253",
+      "previous_sibling": "node_1_1687869717632"
+    },
+    {
+      "type": "standard",
+      "title": "oceana jumat tidakada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Oceana hari jumat tidak tersedia.\nBerikut Jadwal Kapal Oceana \n\nSenin pukul 10.00 \nSelasa pukul 12.00\nRabu pukul 14.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#oceana_jumat_tidakada",
+      "dialog_node": "node_1_1687878559233",
+      "previous_sibling": "node_7_1687875620955"
+    },
+    {
+      "type": "standard",
+      "title": "bukit raya selasa tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Bukit Raya hari selasa tidak tersedia.\nBerikut Jadwal Kapal Bukit Raya \n\nKamis pukul 12.00\nJumat pukul 15.00\nMinggu pukul 09.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#bukitraya_selasa_tidakada",
+      "dialog_node": "node_1_1688042849285",
+      "previous_sibling": "node_4_1688042643997"
+    },
+    {
+      "type": "standard",
+      "title": "Jadwal Minggu ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kapal Hari Minggu \n\nKapal Bukit Raya Pukul 09.00 \nKapal Iguana Pukul 12.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#jadwal_minggu",
+      "dialog_node": "node_2_1687869722852",
+      "previous_sibling": "node_1_1687869721253"
+    },
+    {
+      "type": "standard",
+      "title": "oceana sabtu tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Oceana hari sabtu tidak tersedia.\nBerikut Jadwal Kapal Oceana \n\nSenin pukul 10.00 \nSelasa pukul 12.00\nRabu pukul 14.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#oceana_sabtu_tidakada",
+      "dialog_node": "node_2_1687878642158",
+      "previous_sibling": "node_1_1687878559233"
+    },
+    {
+      "type": "standard",
+      "title": "iguana rabu tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Iguana hari rabu tidak tersedia.\nBerikut Jadwal Kapal Iguana.\n\nSenin pukul 14.00\nSabtu pukul 10.00\nMinggu pukul 12.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#iguana_rabu_tidakada",
+      "dialog_node": "node_2_1688041333532",
+      "previous_sibling": "node_10_1688041219960"
+    },
+    {
+      "type": "standard",
+      "title": "marina jumat tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Marina hari jumat tidak tersedia.\nBerikut Jadwal Kapal Marina \n\nSelasa pukul 10.00\nRabu pukul 12.00\nSabtu pukul 13.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#marina_jumat_tidakada",
+      "dialog_node": "node_2_1688042144313",
+      "previous_sibling": "node_5_1688042108761"
+    },
+    {
+      "type": "standard",
+      "title": "tiket oceana ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Harga tiket kapal Oceana dengan tempat tujuan Natuna yaitu Rp 200.000"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tiket_oceana",
+      "dialog_node": "node_2_1688045250578",
+      "previous_sibling": "node_9_1688042934474"
+    },
+    {
+      "type": "standard",
+      "title": "tujuan oceana",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tujuan Kapal Oceana yaitu Natuna. \nBerikut Jadwal Kapal Oceana \n\nSenin pukul 10.00 \nSelasa pukul 12.00\nRabu pukul 14.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tujuan_oceana_natuna",
+      "dialog_node": "node_2_1688048199173",
+      "previous_sibling": "node_9_1688045465778"
+    },
+    {
+      "type": "standard",
+      "title": "jadwal kapal fery ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Berikut Jadwal Kapal Fery \n\nSenin pukul 08.00\nKamis pukul 09.00\nJumat pukul 10.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#jadwal_kapal_fery",
+      "dialog_node": "node_3_1687679547288",
+      "previous_sibling": "node_7_1687678083683"
+    },
+    {
+      "type": "standard",
+      "title": "jadwal kapal Iguana ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Berikut Jadwal Kapal Iguana\n\nSenin pukul 14.00\nSabtu pukul 10.00\nMinggu pukul 12.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#jadwal_kapal_iguana",
+      "dialog_node": "node_3_1687679807528",
+      "previous_sibling": "node_3_1687679547288"
+    },
+    {
+      "type": "standard",
+      "title": "jadwal kapal umum ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kapal Oceana \n  Senin pukul 10.00\n  Selasa pukul 12.00\n  Rabu pukul 14.00\n\nKapal Fery \n  Senin pukul 08.00\n  Kamis pukul 09.00\n  Jumat pukul 10.00\n\nKapal Iguana \n  Senin pukul 14.00\n  Sabtu pukul 10.00\n  Minggu pukul 12.00\n\nKapal Marina \n  Selasa pukul 10.00\n  Rabu pukul 12.00\n  Sabtu pukul 13.00\n\nKapal Bukit Raya \n  Kamis pukul 12.00\n  Jumat pukul 15.00\n  Minggu pukul 09.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#jadwal_kapal_umum",
+      "dialog_node": "node_3_1687680907341",
+      "previous_sibling": "node_10_1688274017711"
+    },
+    {
+      "type": "standard",
+      "title": "iguana kamis tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Iguana hari kamis tidak tersedia.\nBerikut Jadwal Kapal Iguana.\n\nSenin pukul 14.00\nSabtu pukul 10.00\nMinggu pukul 12.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#iguana_kamis_tidakada",
+      "dialog_node": "node_3_1688041389265",
+      "previous_sibling": "node_2_1688041333532"
+    },
+    {
+      "type": "standard",
+      "title": "tujuan fery batam ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tujuan Kapal Fery yaitu Batam.\nBerikut Jadwal Kapal Fery \n\nSenin pukul 08.00\nKamis pukul 09.00\nJumat pukul 10.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tujuan_fery_batam",
+      "dialog_node": "node_3_1688048268080",
+      "previous_sibling": "node_2_1688048199173"
+    },
+    {
+      "type": "standard",
+      "title": "bukit raya senin tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Bukit Raya hari senin tidak tersedia.\nBerikut Jadwal Kapal Bukit Raya \n\nKamis pukul 12.00\nJumat pukul 15.00\nMinggu pukul 09.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#bukitraya_senin_tidakada",
+      "dialog_node": "node_4_1688042643997",
+      "previous_sibling": "node_10_1688042179022"
+    },
+    {
+      "type": "standard",
+      "title": "tiket iguana",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Harga tiket kapal Iguana dengan tempat tujuan Anambas yaitu Rp 150.000"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tiket_iguana",
+      "dialog_node": "node_4_1688045384856",
+      "previous_sibling": "node_7_1688045326559"
+    },
+    {
+      "type": "standard",
+      "title": "tujuan iguana anambas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tujuan Kapal Iguana yaitu Anambas.\nBerikut Jadwal Kapal Iguana\n\nSenin pukul 14.00\nSabtu pukul 10.00\nMinggu pukul 12.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tujuan_iguana_anambas",
+      "dialog_node": "node_4_1688048871167",
+      "previous_sibling": "node_3_1688048268080"
+    },
+    {
+      "type": "standard",
+      "title": "tujuan marina karimun",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tujuan Kapal Marina yaitu Karimun.\nBerikut Jadwal Kapal Marina \n\nSelasa pukul 10.00\nRabu pukul 12.00\nSabtu pukul 13.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tujuan_marina_karimun",
+      "dialog_node": "node_4_1688048939052",
+      "previous_sibling": "node_4_1688048871167"
+    },
+    {
+      "type": "standard",
+      "title": "tujuan bukit raya lingga",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tujuan Kapal Bukit Raya yaitu Lingga.\nBerikut Jadwal Kapal Bukit Raya \n\nKamis pukul 12.00\nJumat pukul 15.00\nMinggu pukul 09.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tujuan_bukitraya_lingga",
+      "dialog_node": "node_4_1688049011385",
+      "previous_sibling": "node_4_1688048939052"
+    },
+    {
+      "type": "standard",
+      "title": "Jadwal Selasa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kapal Hari Selasa \n\nKapal Marina Pukul 10.00\nKapal Oceana Pukul 12.00 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#jadwal_selasa",
+      "dialog_node": "node_5_1687868582282",
+      "previous_sibling": "node_1_1687868467114"
+    },
+    {
+      "type": "standard",
+      "title": "Jadwal Rabu ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kapal Hari Rabu \n\nKapal Marina Pukul 12.00\nKapal Oceana Pukul 14.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#jadwal_rabu",
+      "dialog_node": "node_5_1687869514064",
+      "previous_sibling": "node_5_1687868582282"
+    },
+    {
+      "type": "standard",
+      "title": "Jadwal Kamis ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kapal Hari Kamis \n\nKapal Fery Pukul 09.00\nKapal Bukit Raya Pukul 12.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#jadwal_kamis",
+      "dialog_node": "node_5_1687869618799",
+      "previous_sibling": "node_5_1687869514064"
+    },
+    {
+      "type": "standard",
+      "title": "oceana minggu tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Oceana hari minggu tidak tersedia.\nBerikut Jadwal Kapal Oceana \n\nSenin pukul 10.00 \nSelasa pukul 12.00\nRabu pukul 14.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#oceana_minggu_tidakada",
+      "dialog_node": "node_5_1687878700960",
+      "previous_sibling": "node_2_1687878642158"
+    },
+    {
+      "type": "standard",
+      "title": "marina kamis tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Marina hari kamis tidak tersedia.\nBerikut Jadwal Kapal Marina \n\nSelasa pukul 10.00\nRabu pukul 12.00\nSabtu pukul 13.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#marina_kamis_tidakada",
+      "dialog_node": "node_5_1688042108761",
+      "previous_sibling": "node_7_1688041574468"
+    },
+    {
+      "type": "standard",
+      "title": "bukit rayaa rabu tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Bukit Raya hari rabu tidak tersedia.\nBerikut Jadwal Kapal Bukit Raya \n\nKamis pukul 12.00\nJumat pukul 15.00\nMinggu pukul 09.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#bukitraya_rabu_tidakada",
+      "dialog_node": "node_5_1688042902209",
+      "previous_sibling": "node_1_1688042849285"
+    },
+    {
+      "type": "standard",
+      "title": "tiket kapal marina",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Harga tiket kapal Marina dengan tempat tujuan Karimun yaitu Rp 150.000"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tiket_marina",
+      "dialog_node": "node_5_1688045428372",
+      "previous_sibling": "node_4_1688045384856"
+    },
+    {
+      "type": "standard",
+      "title": "jadwal kapal bukit raya ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Berikut Jadwal Kapal Bukit Raya \n\nKamis pukul 12.00\nJumat pukul 15.00\nMinggu pukul 09.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#jadwal_kapal_bukit_raya",
+      "dialog_node": "node_6_1687680487930",
+      "previous_sibling": "node_9_1687679896159"
+    },
+    {
+      "type": "standard",
+      "title": "iguana jumat tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Iguana hari jumat tidak tersedia.\nBerikut Jadwal Kapal Iguana.\n\nSenin pukul 14.00\nSabtu pukul 10.00\nMinggu pukul 12.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#iguana_jumat_tidakada",
+      "dialog_node": "node_6_1688041445569",
+      "previous_sibling": "node_3_1688041389265"
+    },
+    {
+      "type": "standard",
+      "title": "penulisan yang salah",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nKapal yang anda maksud tidak tersedia /salah dalam  penamaan kapal.\nMohon di cek kembali. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#penulisan_kapal_salah",
+      "dialog_node": "node_6_1688273659059",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "jadwal kapal oceana ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Berikut Jadwal Kapal Oceana \n\nSenin pukul 10.00 \nSelasa pukul 12.00\nRabu pukul 14.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#jadwal_kapal_oceana",
+      "dialog_node": "node_7_1687678083683",
+      "previous_sibling": "node_2_1687869722852"
+    },
+    {
+      "type": "standard",
+      "title": "oceana tidak ada kapal",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Oceana hari kamis tidak tersedia.\nBerikut Jadwal Kapal Oceana \n\nSenin pukul 10.00 \nSelasa pukul 12.00\nRabu pukul 14.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#oceana_kamis_tidakada",
+      "dialog_node": "node_7_1687875620955",
+      "previous_sibling": "node_6_1687680487930"
+    },
+    {
+      "type": "standard",
+      "title": "fery sabtu tidak ada ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Fery hari sabtu tidak tersedia.\nBerikut Jadwal Kapal Fery \n\nSenin pukul 08.00\nKamis pukul 09.00\nJumat pukul 10.00\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#fery_sabtu_tidakada",
+      "dialog_node": "node_7_1687881161786",
+      "previous_sibling": "node_10_1687881132688"
+    },
+    {
+      "type": "standard",
+      "title": "marina senin tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Marina hari senin tidak tersedia.\nBerikut Jadwal Kapal Marina \n\nSelasa pukul 10.00\nRabu pukul 12.00\nSabtu pukul 13.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#marina_senin_tidakada",
+      "dialog_node": "node_7_1688041574468",
+      "previous_sibling": "node_6_1688041445569"
+    },
+    {
+      "type": "standard",
+      "title": "tiket fery ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Harga tiket kapal Fery dengan tempat tujuan Batam yaitu Rp 80.000"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tiket_fery",
+      "dialog_node": "node_7_1688045326559",
+      "previous_sibling": "node_2_1688045250578"
+    },
+    {
+      "type": "standard",
+      "title": "jadwal kapal marina",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Berikut Jadwal Kapal Marina \n\nSelasa pukul 10.00\nRabu pukul 12.00\nSabtu pukul 13.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#jadwal_kapal_marina",
+      "dialog_node": "node_9_1687679896159",
+      "previous_sibling": "node_3_1687679807528"
+    },
+    {
+      "type": "standard",
+      "title": "fery minggu tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Fery hari minggu tidak tersedia.\nBerikut Jadwal Kapal Fery \n\nSenin pukul 08.00\nKamis pukul 09.00\nJumat pukul 10.00\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#fery_minggu_tidakada",
+      "dialog_node": "node_9_1687881189809",
+      "previous_sibling": "node_7_1687881161786"
+    },
+    {
+      "type": "standard",
+      "title": "bukitraya sabtu tidak ada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maafkan Admin Orin.\nUntuk keberangkatan Kapal Bukit Raya hari sabtu tidak tersedia.\nBerikut Jadwal Kapal Bukit Raya \n\nKamis pukul 12.00\nJumat pukul 15.00\nMinggu pukul 09.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#bukitraya_sabtu_tidakada",
+      "dialog_node": "node_9_1688042934474",
+      "previous_sibling": "node_5_1688042902209"
+    },
+    {
+      "type": "standard",
+      "title": "tiketbukitraya ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Harga tiket kapal Bukit Raya dengan tempat tujuan Lingga yaitu Rp 100.000"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tiket_bukitraya",
+      "dialog_node": "node_9_1688045465778",
+      "previous_sibling": "node_5_1688045428372"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome  ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hallo. Selamat datang di Pelabuhan Naga Pura. \nTerimakasih sudah menghubungi admin Orin. Apa ada yang bisa admin Orin bantu untuk menjawab pertanyaan seputar keberangkatan kapal?\n\n\nDipelabuhan kami tersedia 5 kapal yaitu \n1. Kapal Oceana tujuan Natuna\n2. Kapal Fery tujuan Batam \n3. Kapal Iguana tujuan Anambas\n4. Kapal Marina tujuan Karimun\n5. Kapal Bukit Raya tujuan Lingga "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "created for assistant f936b4ef-ffaf-40c9-814f-77db97b6bfb3",
+  "name": "Asisten Pelabuhan-dialog"
+}
